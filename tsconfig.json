@@ -7,6 +7,30 @@
     "strict": true,
     "skipLibCheck": true,
     "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*":[
+        "./src/assets/*"
+      ],
+      "@components/*":[
+        "./src/components/*"
+      ],
+      "@routes/*":[
+        "./src/routes/*"
+      ],
+      "@screens/*":[
+        "./src/screens/*"
+      ],
+      "@storage/*":[
+        "./src/storage/*"
+      ],
+      "@theme/*":[
+        "./src/theme/*"
+      ],
+      "@utils/*":[
+        "./src/utils/*"
+      ],
+    }
   },
   "extends": "expo/tsconfig.base"
 }
